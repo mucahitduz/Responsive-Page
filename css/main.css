@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-family: "Open Sans", "sans-serif";
+}
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.6rem;
+}
+
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 6px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2{
+    margin-bottom: 0.7rem;
+}
+
+#home .name p{
+    opacity: 0.7;
+}
+
+#projects{
+    color: #fff;
+    padding: 1rem;
+}
+
+#projects .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projects .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#projects .items .item:hover{
+    color: cadetblue;
+}
+
+#details{
+    color: #333;
+    padding: 1rem;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.details .detail{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.details .detail .detail-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.details .detail .detail-image img{
+    border-radius: 5px;
+}
+
+.details .detail .detail-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.details .detail .detail-info .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+
+.details .detail .detail-info .owner{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+
+#contact{
+    color: #fff;
+    padding: 1.25rem;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover{
+    opacity: 0.7;
+}
